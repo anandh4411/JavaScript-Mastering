@@ -71,7 +71,7 @@
     * this returns "object"
 
 8. Objects (Reference Type)
-    * let objectName = {};
+    * # let objectName = {};
     * they are like actual objects in real world
     * eg:
         let name = 'Anandh';
@@ -91,3 +91,13 @@
     * but when we don't know the property name, use bracket
     * eg: let selection = 'name';
           person[selection] = 'Anandh';
+
+9. Arrays
+    * # let selectedColors = [];
+    * eg: let selectedColors = ['red', 'blue'];
+    *     selectedColors[2] = 'green';
+    * as js is a dynamic language, we can change type, array size everything at runtime
+    * technically an array is an object in js
+    * use typeof array; to see it
+    * let array = ['string', 2]; // this is also possible
+    * array.length returns number of elements in the array
