@@ -1,1 +1,23 @@
-Java Script Mastering
+ -- Java Script Mastering --
+
+1. Development Environment
+    * Download Vscode
+    * Download NodeJs
+    * NodeJs is a c++ program, which contains chrome's
+    * V8 JavaScript Engine
+    * So we can run js outside a browser using js
+
+2. JavaScript in Browser
+    * Inside html file, in the last of body tag,
+    * we can use script tag and write js inside it
+    * don't write js before body contents or inside head tag
+    * that may cause a white page in browser
+    * because browser will be busy loading js, before loading actual content
+
+    * Inside a js file, write the js code
+    * and link it using <script src="main.js"></script>
+
+3. JavaScript in Node
+    * inside a terminal,
+    * type "node main.js"
+    * the output will be shown in terminal
