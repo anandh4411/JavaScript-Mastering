@@ -21,3 +21,53 @@
     * inside a terminal,
     * type "node main.js"
     * the output will be shown in terminal
+
+4. Variables
+    * uses memory locations to store data
+    * and assingns a name to the memory location
+    * it has an address too. but not possible to remember always
+
+    * # var
+    * before ES6 version of js, we used "var" keyword
+    * for declaring or initializing a varibale
+    * # let
+    * now we uses "let" keyword as a best practice
+    * eg: let variableName; // declaration (value will be undefined)
+    * eg: let firstName = 'Anandh'; // initialization
+    * you can also use "" for strings, but common way in js is ''
+    * variable names cannot start with a number (1name)
+    * cannot containe space or hyphen, use camel notation 
+
+    * # multiple variable declaration
+    * let firstName, secondName;
+    * but the modern concention is to use single line for each variable
+    * let firstName;
+      let secondName;
+
+5. Constants
+    * # const variableName;
+    * we uses const when our application doesn't want to change the value
+    * of a varibale, that may cause bugs
+    * at that situation, we uses constants
+
+6. Primitive Types (Value types)
+    * # eg: string, number, boolean, undefined
+    * let name = 'Anandh'; // String Literal
+    * let age = 21; // number literal
+    * let isApproved = true; // boolean literal
+    * let firstName = undefined; (let firstName;) // undefined
+    * (undefined is type, at the same time it is value too)
+    * let selectedColor = null; // null (for clearing value of a variable)
+    * # 'symbol' is an ES6 variable 
+
+7. Dynamic Language
+    * JavaScript is a dynamic language
+    * in static languages, type of a variable cannot be changed once it is declared
+    * but in dynamic, it's possible. We can change the type at runtime
+    * # typeof variableName
+    * returns the datatype of a variable
+    * let firstName = null;
+    * typeof firstName;
+    * this returns "object"
+
+
